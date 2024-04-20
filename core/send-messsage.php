@@ -11,13 +11,13 @@ try {
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;
     $mail->isSMTP();
     /*
-        password: jnmz ffcr wkvs zjrh
+        password: jnsmz fsfscr wskvs zjrhs
         username or email: obloqulovshoyim1@gmail.com
     */
     $mail->Host       = 'smtp.gmail.com';
     $mail->SMTPAuth   = true; 
     $mail->Username   = 'obloqulovshoyim1@gmail.com';    
-    $mail->Password   = 'jnmzffcrwkvszjrh';           
+    $mail->Password   = ''; // Sizni parolingiz, https://myaccount.google.com/security           
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; 
     $mail->Port       = 465; 
 
