@@ -7,7 +7,9 @@
 <pre>"phpmailer/phpmailer": "^6.9.1"</pre>
 <p>Yoki</p>
 <pre>git clone https://github.com/shoyimobloqulov/send-email</pre>
-## Running
+
+### Running
+
 <pre>cd send-email</pre>
 <pre>php .\send-messsage.php</pre>
 
